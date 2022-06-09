@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="preroll-1">
+    <InLine>
+      <AdSystem>2.0</AdSystem>
+      <AdTitle>sbbanner</AdTitle>
+      <Impression id="sbbanner"><![CDATA[]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough id="scanscout"><![CDATA[https://fb88cup.com/vi-VN/Account/Register?affiliateId=5363]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile height="400" width="650" bitrate="1000" type="video/mp4" delivery="progressive">https://video.fdad1-3.fna.fbcdn.net/v/t42.27313-2/10000000_2086965868136269_3982722910803174132_n.mp4?_nc_cat=104&amp;vs=dd842a0b996deb74&amp;_nc_vs=HBksFQAYJEdJQ1dtQUJOaHpxYkZXb0hBUFNpTzlGaWVVVTNickZxQUFBRhUAAsgBABUAGCRHRFY3UkJBRTI3UzR4ZDhDQUpOMFhoaE9YVnRvYnJGcUFBQUYVAgLIAQBLBogScHJvZ3Jlc3NpdmVfcmVjaXBlATENc3Vic2FtcGxlX2ZwcwAQdm1hZl9lbmFibGVfbnN1YgAgbWVhc3VyZV9vcmlnaW5hbF9yZXNvbHV0aW9uX3NzaW0AKGNvbXB1dGVfc3NpbV9vbmx5X2F0X29yaWdpbmFsX3Jlc29sdXRpb24AEWRpc2FibGVfcG9zdF9wdnFzABUAJQAcAAAm0JOGw52%2FowMVkE4oAkMzGAt2dHNfcHJldmlldxwXQD%2By8an7520YKWRhc2hfaTRsaXRlYmFzaWNfNXNlY2dvcF9ocTJfZnJhZ18yX3ZpZGVvEgAYGHZpZGVvcy52dHMuY2FsbGJhY2sucHJvZBkcFQAVoLYEACgSVklERU9fVklFV19SRVFVRVNUGw2IFW9lbV90YXJnZXRfZW5jb2RlX3RhZwZvZXBfaGQTb2VtX3JlcXVlc3RfdGltZV9tcw0xNjQzNDY2NTQ4NDUxDG9lbV9jZmdfcnVsZQd1bm11dGVkE29lbV9yb2lfcmVhY2hfY291bnQBNQxvZW1fcm9pX25vdGULcHJvZ3Jlc3NpdmURb2VtX3JvaV91c2VyX3RpZXIAHm9lbV9yb2lfcHJlZGljdGVkX3dhdGNoX3RpbWVfcwEwFm9lbV9yb2lfcmVjaXBlX2JlbmVmaXQFMC4wMDAlb2VtX3JvaV9zdGF0aWNfYmVuZWZpdF9jb3N0X2V2YWx1YXRvcgtwcm9ncmVzc2l2ZQxvZW1fdmlkZW9faWQPOTIyNDc3MDUxNzg3MzI0Em9lbV92aWRlb19hc3NldF9pZA85MjI0NzcwNDUxMjA2NTgVb2VtX3ZpZGVvX3Jlc291cmNlX2lkDzkyMjQ3NzAzODQ1Mzk5MhxvZW1fc291cmNlX3ZpZGVvX2VuY29kaW5nX2lkDzMwMjYxNzk1ODU2Mzg4OSUCHBwcFfDmFxsBVQACGwFVAAIcFQIAAAAWgLq3AwAlxAEbB4gBcwQyNjE4AmNkCjIwMjItMDEtMjkDcmNiATADYXBwBVZpZGVvAmN0GUNPTlRBSU5FRF9QT1NUX0FUVEFDSE1FTlQTb3JpZ2luYWxfZHVyYXRpb25fcwYzMS43NDQCdHMVcHJvZ3Jlc3NpdmVfZW5jb2RpbmdzAA%3D%3D&amp;ccb=1-5&amp;_nc_sid=41a7d5&amp;_nc_ohc=c7On6g0ZeMEAX-0ns6y&amp;_nc_ht=video.fdad1-3.fna&amp;edm=APRAPSkEAAAA&amp;oh=00_AT8ep9jqXPmeaC8Dp_n5J23g8mlCAdRyRCDWo3NBGbG8dw&amp;oe=61F6B558&amp;_nc_rid=b660c5881a1d434</MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative>
+          <CompanionAds>
+            <Companion height="250" width="300" id="555750">
+              <HTMLResource><![CDATA[]]></HTMLResource>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
