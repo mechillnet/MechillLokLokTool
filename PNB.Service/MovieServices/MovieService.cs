@@ -29,7 +29,7 @@ namespace PNB.Service.MovieServices
             _movieRateRepository = movieRateRepository;
             _movieCastMappingRepository = movieCastMappingRepository;
         }
-       public IPagedList<Movie> GetAll(string search, bool? IsPublish, int? CategoryId, int? CountryId, int? TypeId, int? StatusId, string OrderBy,bool GetAnime=true, int start = 0, int take = 15)
+       public IPagedList<Movie> GetAll(string search, bool? IsPublish, int? CategoryId, int? CountryId, int? TypeId, int? StatusId, string OrderBy,bool GetAnime=true,bool? isLokLok =null, int start = 0, int take = 15)
         {
             var query = from h in _movieProductRepository.Table.Include(x => x.CategoryMapping) select h;
             if (IsPublish != null)
@@ -39,6 +39,10 @@ namespace PNB.Service.MovieServices
             if (CategoryId != null)
             {
                 query = query.Where(x => x.CategoryMapping.Any(x=>x.CategoryId == CategoryId));
+            }
+            if (isLokLok != null)
+            {
+                query = query.Where(x => x.LokLokMovie== isLokLok);
             }
             if (CountryId != null)
             {

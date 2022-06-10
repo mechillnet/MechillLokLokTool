@@ -116,10 +116,7 @@ namespace PhamNgocBau.Api.Controllers.Client
         //    string sWebRootFolder = _webHostEnvironment.WebRootPath;
         //    var folderName = _fileProvider.Combine(MediaDefaults.ImageMovieProductsPath);
 
-
-
         //    var dbPath = _fileProvider.Combine(_webHostEnvironment.WebRootPath, folderName, "123.jpg");
-
         //    var path = _fileProvider.Combine(_webHostEnvironment.WebRootPath, @"/images\movie\truong-an-nhu-co-tung-tang3.jpg");
         //    var imageFileStream = System.IO.File.OpenRead(path);
         //    var imageBytes = _pictureService.ChangeSizeImage(imageFileStream);
@@ -127,14 +124,13 @@ namespace PhamNgocBau.Api.Controllers.Client
         //    {
         //        stream.Write(imageBytes, 0, imageBytes.Length);
         //    }
-
         //    return Ok();
         //}
 
         [HttpGet("ImportImage")]
         public IActionResult ImportImage()
         {
-            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, 0, int.MaxValue);
+            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, null,0, int.MaxValue);
             foreach (var m in movie)
             {
                 if (m.Avatar != null)
@@ -206,7 +202,7 @@ namespace PhamNgocBau.Api.Controllers.Client
         [HttpGet("ConvertKeyWord")]
         public IActionResult ConvertKeyWord()
         {
-            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, 0, int.MaxValue);
+            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, null,0, int.MaxValue);
             foreach (var m in movie)
             {
 
@@ -289,7 +285,7 @@ namespace PhamNgocBau.Api.Controllers.Client
         [HttpGet("ProcessAllPicture")]
         public IActionResult ProcessAllPicture()
         {
-            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, 0, int.MaxValue);
+            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, null,0, int.MaxValue);
 
             foreach (var m in movie)
             {
@@ -312,7 +308,7 @@ namespace PhamNgocBau.Api.Controllers.Client
         [HttpGet("ProcessStatus")]
         public IActionResult ProcessStatus()
         {
-            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, 0, int.MaxValue);
+            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, null,0, int.MaxValue);
 
             foreach (var m in movie)
             {
@@ -371,7 +367,7 @@ namespace PhamNgocBau.Api.Controllers.Client
         [HttpGet("ProcessSeokeywords")]
         public IActionResult ProcessSeokeywords()
         {
-            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, 0, int.MaxValue);
+            var movie = _movieService.GetAll(search: null, IsPublish: null, CategoryId: null, CountryId: null, TypeId: null, StatusId: null, OrderBy: null, true, null,0, int.MaxValue);
 
             foreach (var m in movie)
             {

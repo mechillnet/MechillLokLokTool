@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Common\" />
+    <Folder Include="images\loklok\" />
     <Folder Include="wwwroot\images\upload\" />
   </ItemGroup>
 

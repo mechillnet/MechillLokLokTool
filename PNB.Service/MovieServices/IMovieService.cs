@@ -8,7 +8,7 @@ namespace PNB.Service.MovieServices
 {
     public interface IMovieService
     {
-        IPagedList<Movie> GetAll(string search,bool? IsPublish, int? CategoryId, int? CountryId, int? TypeId, int? StatusId, string OrderBy, bool GetAnime = true,int start = 0, int take = 15);
+        IPagedList<Movie> GetAll(string search,bool? IsPublish, int? CategoryId, int? CountryId, int? TypeId, int? StatusId, string OrderBy, bool GetAnime = true, bool? isLokLok = null, int start = 0, int take = 15);
         IList<Movie> GetListAll(string search, bool? IsPublish, int? CategoryId, int? CountryId, int? TypeId, int? StatusId, string OrderBy, bool GetAnime = true, int start = 0, int take = 15);
         IPagedList<Movie> GetProductHomePageTop(int start = 0, int take = 15);
         IPagedList<Movie> GetProductCenterPage(int start = 0, int take = 15);
